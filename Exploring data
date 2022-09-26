@@ -1,0 +1,64 @@
+--1.What is the Top 10 products?
+
+SELECT *
+FROM (
+	SELECT stockcode
+		,description
+		,RANK() OVER (
+			ORDER BY SUM(quantity) DESC
+			) AS rnk
+		,SUM(quantity) AS quantity_sold
+	FROM online_retail
+	GROUP BY stockcode
+		,description
+	) AS rnk_products
+WHERE rnk_products.rnk <= 10
+
+
+
+--2.What is the highest month for sales?
+SELECT extract(month FROM invoicedate) AS month
+	,sum(quantity * unitprice) AS sales_value
+	,RANK() OVER (
+		ORDER BY SUM(quantity * unitprice) DESC
+		) AS month_rank
+		
+FROM online_retail
+WHERE invoicedate <= '11-30-2011'
+GROUP BY extract(month FROM invoicedate)
+ORDER BY sales_value DESC;
+
+
+--3.Top Countries in orders
+SELECT country
+	, COUNT(*) AS total_orders
+	,(COUNT(*) / SUM(COUNT(*)) OVER ()) * 100 AS "Country Percentage"
+FROM online_retail
+GROUP BY country
+ORDER BY "Country Percentage" DESC;
+
+
+--4. Finding the value of most orders
+SELECT *
+FROM (
+	SELECT invoiceno
+		,sum(quantity)
+		,cume_dist() OVER (
+			ORDER BY sum(quantity * unitprice)
+			) AS order_value
+	FROM online_retail
+	GROUP BY invoiceno
+	ORDER BY sum(quantity) DESC
+	) sub
+WHERE order_value in(0.5,1)
+
+--5.Who is the most valuable customer?
+SELECT customerid
+	,sum(quantity * unitprice) AS sales_value
+	,RANK() OVER (
+		ORDER BY SUM(quantity * unitprice) DESC
+		) AS sales_rank
+FROM online_retail
+WHERE customerid != ''
+GROUP BY customerid;
+
