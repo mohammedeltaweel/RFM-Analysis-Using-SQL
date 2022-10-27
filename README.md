@@ -1,4 +1,4 @@
-# RFM-Analystis-Using-PostgreSQL
+# RFM-Analysis-Using-PostgreSQL
 Who are the customer should the company target when launching a new marketing campaign?
 
 RFM analysis can be used to answer this question. This project makes use of SQL analytical functions to conduct RFM analysis. 
