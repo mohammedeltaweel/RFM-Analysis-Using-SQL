@@ -18,7 +18,5 @@ The project has the following:
   3. Using PostgreSQL to conduct RFM analysis
   
   
-  
-  <a href="https://imgbox.com/ZwG6HFH8" target="_blank"><img src="https://thumbs2.imgbox.com/c2/de/ZwG6HFH8_t.png" alt="image host"/></a>
-  ![Click start menu and type terminal]
+  <a href="https://imgbox.com/ZwG6HFH8" target="_blank"><img src="https://images2.imgbox.com/c2/de/ZwG6HFH8_o.png" alt="image host"/></a>
 
