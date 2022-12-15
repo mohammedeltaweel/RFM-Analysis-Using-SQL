@@ -19,4 +19,6 @@ The project has the following:
   
   
   
+  
+  ![Click start menu and type terminal](https://imgbox.com/ZwG6HFH8)
 
