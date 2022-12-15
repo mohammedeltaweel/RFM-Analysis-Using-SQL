@@ -20,5 +20,5 @@ The project has the following:
   
   
   
-  ![Click start menu and type terminal](https://imgbox.com/ZwG6HFH8)
+  ![Click start menu and type terminal][URL=https://imgbox.com/ZwG6HFH8][IMG]https://thumbs2.imgbox.com/c2/de/ZwG6HFH8_t.png[/IMG][/URL]
 
