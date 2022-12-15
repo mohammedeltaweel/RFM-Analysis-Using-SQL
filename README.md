@@ -11,9 +11,12 @@ Targeted marketing campaigns are often based on segmenting customers into groups
 
 The project has the following:
 
-  1.Using SQL to clean and discover the data
+  1. Using SQL to clean and discover the data
 
-  2.Using window and analytical functions to tell a data story
+  2. Using window and analytical functions to tell a data story
 
-  3.Using PostgreSQL to conduct RFM analysis
+  3. Using PostgreSQL to conduct RFM analysis
+  
+  
+  
 
