@@ -19,6 +19,6 @@ The project has the following:
   
   
   
-  
-  ![Click start menu and type terminal][URL=https://imgbox.com/ZwG6HFH8][IMG]https://thumbs2.imgbox.com/c2/de/ZwG6HFH8_t.png[/IMG][/URL]
+  <a href="https://imgbox.com/ZwG6HFH8" target="_blank"><img src="https://thumbs2.imgbox.com/c2/de/ZwG6HFH8_t.png" alt="image host"/></a>
+  ![Click start menu and type terminal]
 
