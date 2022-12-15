@@ -19,4 +19,7 @@ The project has the following:
   
   
   <a href="https://imgbox.com/ZwG6HFH8" target="_blank"><img src="https://images2.imgbox.com/c2/de/ZwG6HFH8_o.png" alt="image host"/></a>
+  
+  <a href="" target="_blank"><img src="https://images2.imgbox.com/c2/de/ZwG6HFH8_o.png" alt="Click start menu and type terminal"/></a>
+
 
